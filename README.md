@@ -11,4 +11,6 @@ Notebook accompanying the [Hearing Things](https://pzulawski.github.io/machine-l
 
 ## Data format
 
+I am not able to provide training data. To run the notebook, both speech and non-speech samples are required. 
+
 The notebook expects segment lists in a whitespace-delimited format with columns `id`, `audio_path`, `start`, `end`, and an optional transcript. The `start` and `end` fields are offsets in seconds into the audio file, allowing segments to be indexed out of larger recordings. Set the `NON_SPEECH_AUDIO`, `SPEECH_AUDIO1`, and `SPEECH_AUDIO2` paths at the top of the data-loading cell before running.
